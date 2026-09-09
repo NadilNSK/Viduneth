@@ -1,0 +1,152 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@layer base { 
+  html, body { 
+    margin: 0; 
+    padding: 0; 
+  } 
+  body { 
+    overscroll-behavior: none; 
+    @apply bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed relative overflow-x-hidden min-h-screen flex flex-col;
+  } 
+  main > :first-child { 
+    margin-top: 0 !important; 
+  } 
+  main > :last-child { 
+    margin-bottom: 0 !important; 
+  } 
+} 
+::-webkit-scrollbar { 
+  display: none; 
+}
+/* From stitch_my_classes.html */
+body {
+      background-color: #f4f6fa;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* Custom subtle scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+/* From stitch_my_classes.html */
+.card-zoom-img {
+      transition: transform 0.35s ease;
+    }
+    .group:hover .card-zoom-img {
+      transform: scale(1.03);
+    }
+    .badge-dot {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .4; }
+    }
+
+/* From stitch_dashboard.html */
+/* Exact colorful glow styling extracted from https://lh3.googleusercontent.com/aida-public/AB6AXuAVPRcm28xCqIDyu--BoiAikAruiVdGBpsA-Rob7KCj2yfAvxso9hsoy7gbbiYc8Si2iMIapwU4kcLa3hG-8Zl7z0VH-H5ljXqJApYGgdPuuLU-PMzw1qyYOM1gsJDps_rbqlXL-ZejKFnnwjvVCvkRO2_33n7YMk6PR_4Px0CuJip99IAKhF1-9fBaPS4Q9ivhVWFFTu55_xk15mWwo12aUZ-LbAlV82RHr7I4NakT5Y60j-YliCNIUpVw9ZAUTTeh */
+    .glow-cyan {
+      background: #0ea5e9;
+      box-shadow: 0 10px 22px -3px rgba(14, 165, 233, 0.55);
+    }
+    .glow-teal {
+      background: #10b981;
+      box-shadow: 0 10px 22px -3px rgba(16, 185, 129, 0.52);
+    }
+    .glow-orange {
+      background: #f97316;
+      box-shadow: 0 10px 22px -3px rgba(249, 115, 22, 0.55);
+    }
+    .glow-indigo {
+      background: #6366f1;
+      box-shadow: 0 10px 22px -3px rgba(99, 102, 241, 0.55);
+    }
+    .glow-pink {
+      background: #ec4899;
+      box-shadow: 0 10px 22px -3px rgba(236, 72, 153, 0.55);
+    }
+    .glow-emerald {
+      background: #059669;
+      box-shadow: 0 10px 22px -3px rgba(5, 150, 105, 0.52);
+    }
+    .glow-yellow {
+      background: #f59e0b;
+      box-shadow: 0 10px 22px -3px rgba(245, 158, 11, 0.52);
+    }
+    .glow-red {
+      background: #ef4444;
+      box-shadow: 0 10px 22px -3px rgba(239, 68, 68, 0.58);
+    }
+    
+    /* Subtle custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+/* From stitch_sign_in.html */
+.bg-mesh-canvas {
+      background-color: #f8fafc;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(224, 242, 254, 0.8) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(254, 242, 242, 0.7) 0px, transparent 45%),
+        radial-gradient(at 100% 100%, rgba(240, 249, 255, 0.9) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, rgba(253, 244, 248, 0.8) 0px, transparent 40%);
+    }
+
+    .badge-blur {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+/* From stitch_home_updated.html */
+@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }
+
+/* From stitch_registration.html */
+body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f6f8fb;
+    }
+    input::placeholder, select::placeholder {
+      color: #94a3b8;
+    }
+
+/* From stitch_registration.html */
+/* Subtle rounded inputs matching the reference design */
+    .form-input-custom {
+      transition: all 0.2s ease-in-out;
+      border: 1px solid #e2e8f0;
+      background-color: #ffffff;
+    }
+    .form-input-custom:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+      outline: none;
+    }
+    .form-input-custom:hover:not(:focus) {
+      border-color: #cbd5e1;
+    }
+
