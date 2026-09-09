@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignIn: React.FC = () => {
   return (
@@ -54,9 +55,12 @@ const SignIn: React.FC = () => {
 </button>
 </div>
 
-<p className="text-xs text-center text-slate-500 mb-6 leading-relaxed">
-        New here? Sign in with Google and we'll walk you through registration.
-      </p>
+<div className="mt-4 mb-6 text-center">
+        <p className="text-sm text-slate-500 mb-3">New here?</p>
+        <Link to="/register" className="inline-block w-full py-3 px-6 rounded-full bg-sky-50 hover:bg-sky-100 border border-sky-200 text-sky-700 font-semibold text-[15px] transition-all duration-200 text-center">
+          Create an account
+        </Link>
+      </div>
 
 <div className="relative my-6" data-purpose="divider">
 <div aria-hidden="true" className="absolute inset-0 flex items-center">

@@ -1,6 +1,14 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Registration: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleRegister = (e: React.FormEvent) => {
+    e.preventDefault();
+    navigate('/dashboard');
+  };
+
   return (
     <div className="w-full">
       
@@ -35,7 +43,7 @@ const Registration: React.FC = () => {
 </div>
 </div>
 
-<form action="#" className="space-y-6" data-purpose="student-registration-form" method="POST" onSubmit={(e) => e.preventDefault()}>
+<form action="#" className="space-y-6" data-purpose="student-registration-form" method="POST" onSubmit={handleRegister}>
 
 
 <section className="rounded-2xl border border-slate-200/75 bg-slate-50/40 p-5 sm:p-6 space-y-4" data-purpose="section-personal-info">
@@ -281,7 +289,7 @@ const Registration: React.FC = () => {
 
 <p className="text-center text-sm text-slate-500 pt-1">
           Already have an account? 
-          <a className="text-brand-600 font-medium hover:underline" href="#">Sign in</a>
+          <Link to="/sign-in" className="text-brand-600 font-medium hover:underline">Sign in</Link>
 </p>
 
 </form>
