@@ -16,7 +16,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="Dashboard" className="glow-cyan w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95 ring-2 ring-slate-800/10" href="#dashboard">
-<i className="fa-solid fa-house"></i>
+<span className="material-symbols-outlined text-[24px]">dashboard</span>
 </a>
 
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-slate-900 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
@@ -26,7 +26,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="My Classes" className="glow-teal w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95" href="#classes">
-<i className="fa-solid fa-book-open"></i>
+<span className="material-symbols-outlined text-[24px]">menu_book</span>
 </a>
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-slate-900 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
             My Classes
@@ -35,7 +35,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="Notices" className="glow-orange w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95 relative" href="#notices">
-<i className="fa-solid fa-bell"></i>
+<span className="material-symbols-outlined text-[24px]">notifications</span>
 
 <span className="absolute top-2 right-2 w-2.5 h-2.5 bg-white rounded-full border-2 border-[#f97316]"></span>
 </a>
@@ -48,7 +48,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="Mark Analyze" className="glow-pink w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95" href="#analytics">
-<i className="fa-solid fa-chart-simple"></i>
+<span className="material-symbols-outlined text-[24px]">analytics</span>
 </a>
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-slate-900 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
             Mark Analyze &amp; Ranks
@@ -57,7 +57,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="VIDU AI" className="w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95 bg-gradient-to-br from-purple-500 to-indigo-600 shadow-md hover:shadow-lg" href="#vidu-ai">
-<i className="fa-solid fa-brain"></i>
+<span className="material-symbols-outlined text-[24px]">psychology</span>
 </a>
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-slate-900 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
             VIDU AI
@@ -66,7 +66,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group">
 <a aria-label="Profile" className="glow-yellow w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95" href="#profile">
-<i className="fa-solid fa-user"></i>
+<span className="material-symbols-outlined text-[24px]">person</span>
 </a>
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-slate-900 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
             Student Profile
@@ -75,7 +75,7 @@ const Dashboard: React.FC = () => {
 
 <div className="relative group pt-1">
 <a aria-label="Log Out" className="glow-red w-12 h-12 rounded-2xl flex items-center justify-center text-white text-xl transition-all duration-300 transform group-hover:scale-110 active:scale-95" href="#logout">
-<i className="fa-solid fa-right-from-bracket"></i>
+<span className="material-symbols-outlined text-[24px]">logout</span>
 </a>
 <span className="absolute left-16 top-1/2 -translate-y-1/2 ml-2 px-2.5 py-1 bg-rose-700 text-white text-xs font-semibold rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 shadow-xl whitespace-nowrap z-50">
             Log Out

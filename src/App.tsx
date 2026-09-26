@@ -8,6 +8,7 @@ import MyClasses from './pages/MyClasses';
 import Dashboard from './pages/Dashboard';
 import SignIn from './pages/SignIn';
 import Registration from './pages/Registration';
+import StudentProfile from './pages/StudentProfile';
 import './styles/global.css';
 
 const App: React.FC = () => {
@@ -24,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/register" element={<Registration />} />
+            <Route path="/profile" element={<StudentProfile />} />
           </Routes>
         </main>
       </div>

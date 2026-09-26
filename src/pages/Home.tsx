@@ -594,9 +594,7 @@ const Home: React.FC = () => {
 <h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Official Telegram Channel</h4>
 </div>
 </div>
-<span className="font-label-md text-label-md text-primary font-bold flex items-center gap-1">
-          Join <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</span>
+
 </a>
 
 <a className="group bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-4 shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-200 flex items-center justify-between" href="https://t.me" rel="noreferrer" target="_blank">
@@ -606,15 +604,13 @@ const Home: React.FC = () => {
 <h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Official Whatsapp&nbsp;</h4>
 </div>
 </div>
-<span className="font-label-md text-label-md text-primary font-bold flex items-center gap-1">
-          Join <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</span>
+
 </a>
 
 
 
 
-<a className="group bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-4 shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-200 flex items-center justify-between" href="https://t.me" rel="noreferrer" target="_blank"><div className="flex items-center gap-3.5"><div className="w-11 h-11 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-sm shrink-0"><span className="material-symbols-outlined text-[22px]">call</span></div><div><h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Contact - +94 71 169 1076</h4></div></div><span className="font-label-md text-label-md text-primary font-bold flex items-center gap-1">Call<span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">call</span></span></a><a className="group bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-4 shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-200 flex items-center justify-between" href="https://chat.whatsapp.com" rel="noreferrer" target="_blank"><div className="flex items-center gap-3.5"><div className="w-11 h-11 rounded-xl bg-[#25D366] text-white flex items-center justify-center shadow-sm shrink-0"><span className="material-symbols-outlined text-[22px]">location_on</span></div><div><h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Location - Dodangoda,Kalutara.</h4></div></div><span className="font-label-md text-label-md text-primary font-bold flex items-center gap-1">See<span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span></span></a></div>
+<a className="group bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-4 shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-200 flex items-center justify-between" href="https://t.me" rel="noreferrer" target="_blank"><div className="flex items-center gap-3.5"><div className="w-11 h-11 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-sm shrink-0"><span className="material-symbols-outlined text-[22px]">call</span></div><div><h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Contact - +94 71 169 1076</h4></div></div></a><a className="group bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-4 shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-200 flex items-center justify-between" href="https://chat.whatsapp.com" rel="noreferrer" target="_blank"><div className="flex items-center gap-3.5"><div className="w-11 h-11 rounded-xl bg-[#25D366] text-white flex items-center justify-center shadow-sm shrink-0"><span className="material-symbols-outlined text-[22px]">location_on</span></div><div><h4 className="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">Location - Dodangoda,Kalutara.</h4></div></div></a></div>
 </section>
 </div></main><footer className="w-full bg-surface-container-lowest/80 backdrop-blur-md mt-auto shadow-[0_-1px_12px_rgba(0,0,0,0.03)]"><div className="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop py-12 md:py-16"><div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p className="">© VIduneth Education Center. All rights reserved.</p><div className="flex items-center gap-6"><a className="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a className="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a className="hover:text-on-surface transition-colors" href="#">Curriculum Governance</a></div></div></div></footer>
 
